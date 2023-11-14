@@ -1,0 +1,59 @@
+body {
+  background-image: url('wether.jpg');
+  
+  background-size: 1000px;
+  background-position: left center;
+}
+.container {
+  padding:200px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  border-radius:2px;
+  
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: black; /* Added text color */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.conversion-form {
+  border: 3px solid lightblue;
+  padding: 30px;
+  background-color: #e3f2fd; /* Added background color */
+  border-radius:10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block ;
+  margin-bottom: 10px;
+  border-radius:10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  color: blue; /* Added text color */
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius:10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 10px;
+  border: 5px solid #ccc blue;
+  cursor: pointer;
+  background-color: #03a9f4; /* Added background color */
+  border-radius:15px;
+  color: #fff; /* Added text color */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+  margin-top: 20px;
+}
+
